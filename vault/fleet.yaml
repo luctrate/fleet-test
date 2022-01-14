@@ -3,8 +3,8 @@ helm:
   chart: "https://github.com/hashicorp/vault-helm/archive/refs/tags/v0.18.0.tar.gz"
   values:
       server: 
-        hosts:
-        - host: vault.luctrate.com
-          paths: []
         ingress: 
           enabled: true
+          hosts:
+          - host: vault.luctrate.com
+            paths: []
