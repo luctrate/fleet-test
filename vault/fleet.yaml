@@ -2,6 +2,6 @@ defaultNamespace: vault
 helm:
   chart: "https://github.com/hashicorp/vault-helm/archive/refs/tags/v0.18.0.tar.gz"
   values:
-      global: 
+      server: 
         ingress: 
           enabled: true
